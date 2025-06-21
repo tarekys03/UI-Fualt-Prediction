@@ -9,7 +9,7 @@ from streamlit_autorefresh import st_autorefresh
 from charts_module import ChartGenerator
 
 # API Configuration
-FASTAPI_URL = "http://ohi-api:8000/predict"
+FASTAPI_URL = "https://fault-prediction-api.onrender.com/predict"
 
 # Streamlit configuration
 st.set_page_config(
